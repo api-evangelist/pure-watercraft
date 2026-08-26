@@ -1,0 +1,14 @@
+generated: '2026-08-26'
+method: searched
+source: https://www.pureoutboards.com/shop/
+plan_count: 0
+applicable: false
+status: na
+plans: []
+note: >-
+  Pure Watercraft published no API plans, developer tiers, or usage pricing of any kind, and none
+  were ever published: the company had no developer program. It sold physical goods only. The
+  storefront that its domain now redirects to (www.pureoutboards.com/shop/, HTTP 200, verified
+  2026-08-26) is the acquirer's WooCommerce shop listing outboard motors, battery packs, chargers
+  and throttle controls at unit prices. Those are hardware SKUs, not API plans, and are deliberately
+  not recorded as plans here. plan_count 0 is a measured absence, not an unchecked field.

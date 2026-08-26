@@ -1,0 +1,14 @@
+generated: '2026-08-26'
+method: searched
+source: https://purewatercraft.com/
+limit_count: 0
+applicable: false
+status: na
+rate_limits: []
+note: >-
+  No rate limits are documented because there is no API to rate-limit. Contract discovery on
+  2026-08-26 found no OpenAPI, GraphQL, MCP, AsyncAPI or agent-card surface on purewatercraft.com
+  (HTTP 301 to www.pureoutboards.com) or on the successor host, and no developer documentation
+  anywhere describing quotas, windows, burst allowances, X-RateLimit-*/RateLimit-* response headers,
+  Retry-After, or a 429 policy. limit_count 0 is a measured absence for a defunct provider with no
+  API surface, not an unchecked field.

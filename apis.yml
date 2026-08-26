@@ -1,7 +1,17 @@
 aid: pure-watercraft
 name: Pure Watercraft
-description: 'Pure Watercraft is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Pure Watercraft was a Seattle, Washington electric marine propulsion company founded in 2011 by Andy
+  Rebele. It built electric outboard motors marketed as drop-in replacements for 20 to 50 horsepower gas
+  engines, along with lithium-ion battery packs, chargers and Wi-Fi throttle controls, plus a consumer
+  companion mobile app that pulled trip history and telemetry off the outboard over Bluetooth and pushed
+  firmware updates to it. General Motors took a reported 25 percent stake in 2021. The company wound down
+  and sold its assets in 2024, with the outboard line acquired by Raider Outboards and other assets going
+  to a Seattle electric boat club. purewatercraft.com and the former companion-app host
+  app.purewatercraft.com both now 301 to www.pureoutboards.com, the Pure Electric Outboard storefront
+  operated by the acquirer. Pure Watercraft never published a public developer program, API reference,
+  SDK, or machine-readable API contract; its telemetry cloud was private to its own mobile app.
+image: https://www.pureoutboards.com/wp-content/uploads/2025/07/cropped-PURE-neon-green-cmyk-scaled-1.webp
 url: https://raw.githubusercontent.com/api-evangelist/pure-watercraft/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +22,13 @@ created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Electric Vehicles
+- Marine
+- Manufacturing
+- Hardware
+- Consumer Products
+- Mobility
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +37,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/pure-watercraft_stock/
+  url: https://purewatercraft.com/
+- type: LLMsTxt
+  url: llms/pure-watercraft-llms.txt
+- type: DomainSecurity
+  url: security/pure-watercraft-domain-security.yml
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Pure Watercraft, Inc. wound down and sold its assets in 2024, and purewatercraft.com — including
+    app.purewatercraft.com, the host that served its telemetry companion app — now 301s to
+    www.pureoutboards.com, a WooCommerce storefront run by the acquirer of the outboard line, so
+    there is no Pure Watercraft surface left to profile.
+  evidence:
+    - url: https://purewatercraft.com/
+      status: 301
+    - url: https://app.purewatercraft.com/
+      status: 301
+    - url: https://www.pureoutboards.com/openapi.json
+      status: 404
+    - url: https://www.pureoutboards.com/.well-known/agent-card.json
+      status: 404
+    - url: https://github.com/purewatercraft
+      status: 200
+  checked: '2026-08-26'

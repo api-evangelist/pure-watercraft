@@ -1,0 +1,59 @@
+generated: '2026-08-26'
+method: probed
+source: >-
+  Direct HTTPS probes of /.well-known/* on the Pure Watercraft domain and on the successor host it
+  redirects to. purewatercraft.com 301s to www.pureoutboards.com, so both were probed. Every path
+  returned the WordPress 404 template. No pointer of type WellKnown or SecurityTxt is emitted,
+  because nothing was served.
+note: >-
+  Recorded absence, not a gap in the probe. All ten probes returned HTTP 404 with an HTML 404 body.
+  Pure Watercraft is defunct and the domain now fronts a WooCommerce storefront run by the acquirer
+  of its outboard assets; neither host publishes a security.txt, an OAuth/OIDC discovery document,
+  an api-catalog, an ai-plugin manifest, or an agent card.
+hosts:
+- host: purewatercraft.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.pureoutboards.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
