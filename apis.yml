@@ -11,6 +11,17 @@ description: >-
   app.purewatercraft.com both now 301 to www.pureoutboards.com, the Pure Electric Outboard storefront
   operated by the acquirer. Pure Watercraft never published a public developer program, API reference,
   SDK, or machine-readable API contract; its telemetry cloud was private to its own mobile app.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.pureoutboards.com/wp-content/uploads/2025/07/cropped-PURE-neon-green-cmyk-scaled-1.webp
 url: https://raw.githubusercontent.com/api-evangelist/pure-watercraft/refs/heads/main/apis.yml
 x-type: company
