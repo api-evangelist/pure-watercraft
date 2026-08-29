@@ -24,6 +24,9 @@ deliveryModel:
   method: derived
 image: https://www.pureoutboards.com/wp-content/uploads/2025/07/cropped-PURE-neon-green-cmyk-scaled-1.webp
 url: https://raw.githubusercontent.com/api-evangelist/pure-watercraft/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Pure Watercraft never published a public developer program, API reference, SDK, or machine-readable API contract; its telemetry cloud was private to its own mobile app."
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
